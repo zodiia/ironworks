@@ -1,9 +1,9 @@
 //! Types and helpers for working with the SeString string format.
 
-mod context;
-mod expression;
-mod payload;
-mod sestring;
-mod value;
+pub mod context;
+pub mod expression;
+pub mod payload;
+pub mod sestring;
+pub mod value;
 
 pub use sestring::SeString;

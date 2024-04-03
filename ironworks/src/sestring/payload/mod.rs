@@ -1,12 +1,12 @@
-mod character;
-mod control_flow;
-mod format;
-mod kind;
-mod payload;
-mod player;
+pub mod character;
+pub mod control_flow;
+pub mod format;
+pub mod kind;
+pub mod payload;
+pub mod player;
 #[cfg(feature = "excel")]
-mod sheet;
-mod text;
-mod time;
+pub mod sheet;
+pub mod text;
+pub mod time;
 
 pub use kind::Kind;

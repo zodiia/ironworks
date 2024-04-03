@@ -1,6 +1,6 @@
 //! Structs and utilities for parsing .mtrl files.
 
-mod material;
-mod structs;
+pub mod material;
+pub mod structs;
 
 pub use material::{Material, Sampler};

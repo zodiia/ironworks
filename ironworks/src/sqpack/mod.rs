@@ -1,11 +1,11 @@
 //! Tools for working with the SqPack package format.
 
-mod block;
-mod file;
-mod index;
-mod install;
-mod resource;
-mod sqpack;
+pub mod block;
+pub mod file;
+pub mod index;
+pub mod install;
+pub mod resource;
+pub mod sqpack;
 
 pub use {
 	block::{BlockMetadata, BlockPayload, BlockStream},

@@ -1,13 +1,13 @@
 //! Tools for working with the Excel database format.
 
-mod borrowed;
-mod excel;
-mod field;
-mod language;
-mod metadata;
-mod path;
-mod row;
-mod sheet;
+pub mod borrowed;
+pub mod excel;
+pub mod field;
+pub mod language;
+pub mod metadata;
+pub mod path;
+pub mod row;
+pub mod sheet;
 
 pub use {
 	excel::{Excel, ExcelOptions},

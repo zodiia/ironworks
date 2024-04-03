@@ -6,10 +6,8 @@
 	unused_variables
 )]
 
-mod error;
-mod metadata;
-mod utility;
+pub mod error;
+pub mod metadata;
+pub mod utility;
 
 pub mod sheet;
-
-pub use {error::PopulateError, metadata::for_type};

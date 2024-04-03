@@ -2,7 +2,7 @@
 //!
 //! Each file type may contain a number of related supporting items, and as such are namespaced seperately.
 
-mod file;
+pub mod file;
 
 #[cfg(feature = "eqdp")]
 pub mod eqdp;

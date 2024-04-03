@@ -6,9 +6,9 @@
 // Doc config
 #![cfg_attr(docsrs, feature(doc_auto_cfg, doc_cfg))]
 
-mod error;
-mod ironworks;
-mod utility;
+pub mod error;
+pub mod ironworks;
+pub mod utility;
 
 #[cfg(feature = "excel")]
 pub mod excel;
